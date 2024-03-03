@@ -1,47 +1,24 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>GeeksforGeeks Registration</title>
-	<link rel="stylesheet"
-		href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Form</title>
+	<link rel="stylesheet" href="styles/stlyes.css">
 </head>
-
 <body>
-	<div class="main">
-		<h1>GeeksforGeeks</h1>
-		<h3>Enter your login credentials</h3>
-		<form action="">
-			<label for="first">
-				Username:
-			</label>
-			<input type="text"
-				id="first"
-				name="first"
-				placeholder="Enter your Username" required>
-
-			<label for="password">
-				Password:
-			</label>
-			<input type="password"
-				id="password"
-				name="password"
-				placeholder="Enter your Password" required>
-
-			<div class="wrap">
-				<button type="submit"
-						onclick="solve()">
-					Submit
-				</button>
+	<div class="outerBox">
+		<h1 class="outerElements">Login</h1>
+			<div class="innerBox">
+				
+				<form action="">
+				
+					<input type="text" placeholder="Username" class="inBox"> <br> <br>
+					
+					<input type="email" name="" id="" placeholder="Password" class="inBox"><br> <br>
+					<input type="submit"  value="Login" id="login" style="margin-left: 40%;">
+				</form>
 			</div>
-		</form>
-		<p>Not registered? 
-			<a href="#"
-			style="text-decoration: none;">
-				Create an account
-			</a>
-		</p>
-	</div>
+	</div>	
 </body>
-
 </html>
